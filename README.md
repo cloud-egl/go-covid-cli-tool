@@ -6,9 +6,11 @@ Covid cli tool to fetch no of cases based on countries
 
 ```go run apiConsume.go -country <countryname>```
 
-#output current count of cases
+# Output current date total count of covid cases
 
-``` go run apiConsume.go -country india 
+``` 
+
+go run apiConsume.go -country india 
 
 Total Cases summary of world
 {Confirmed:6258702 Death:379392 Recovered:2640678}
